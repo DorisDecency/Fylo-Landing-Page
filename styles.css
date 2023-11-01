@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: center;
+    font-family: "Open sans";
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.page1 {
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+}
+nav{
+    align-self: center;
+    
+}
+header img{
+    height: 25px;
+}
+/* .list {
+    padding: 10px;
+    gap: 30px;
+} */
+.pick {
+    color: hsl(243, 87%, 12%);
+    font-size: 14px;
+}
+.image-1 {
+    width:300px;
+    padding: 120px 0 20px 0;
+
+}
+h1, h2, h3, nav, button {
+    font-family: "Raleway";
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+.page1 p {
+    color: hsl(243, 87%, 12%);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    margin: 25px 0;
+}
+.page1 input {
+    width: 100%;
+    height: 40px;
+    border: 1.3px solid rgb(82, 82, 82);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.page1 button {
+    width: 100%;
+    height: 40px;
+    background: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 5px;
+    margin-top: 15px;;
+    color: white;
+    font-weight: 600;
+    box-shadow: 3px 3px 7px hsl(0, 0%, 75%);
+}
+.page1 button:hover {
+    background-color: hsl(224, 89%, 66%);
+    cursor: pointer;
+}
+.page2 {
+    margin-top: 80px;
+}
+.inner1 {
+    background-image: url("./images/bg-curve-mobile.svg");
+    background-repeat: no-repeat;
+    height: 53px;
+}
+.inner2 {
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 60px 20px;   
+}
+.image-2 {
+    width:300px;
+    padding: 40px 0 70px 0;
+    align-self: center;
+}
+.inner2 h2 {
+    font-size: medium;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+}
+.innerfirst {
+    margin: 10px 0;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: hsl(238, 22%, 44%);
+}
+.link1 {
+    width: 130px;
+    border-bottom: 1.5px solid hsl(170, 45%, 43%);
+    padding-bottom: 5px;
+    display: flex;
+    margin: 30px auto;
+}
+.link1:hover{
+    border-color: hsl(170, 92%, 60%);
+    cursor: pointer;
+}
+.link1 a {
+    color: hsl(170, 45%, 43%);
+    font-size: 12px;
+}
+.link1 a:hover{
+    color: hsl(170, 92%, 60%);
+    cursor: pointer;
+}
+.link1 img {
+    padding-left: 4px;
+}
+.link1 img:hover{
+    color: hsl(170, 92%, 60%);
+    cursor: pointer;
+}
+.testimonial {
+    width: 270px;
+    background-color: white;
+    padding: 22px;
+    border-radius: 4px;
+    box-shadow: 1px -1px 30px hsl(0, 0%, 75%);
+    margin: 20px auto;
+}
+.test-para {
+    font-size: 10px;
+    font-weight: 600;
+    margin: 6px 0 15px;
+    color: hsl(243, 87%, 12%);
+}
+.sub-test {
+    display: inline-flex;
+}
+.sub-im {
+    width: 25px;
+    height: 25px;;
+    border-radius: 50%
+}
+.sub-test span {
+padding-left: 10px;
+}
+.sub-test p {
+    font-size: 7px;
+    color: hsl(238, 22%, 44%);
+}
+.sub-test h6 {
+    color: hsl(243, 87%, 12%);
+}
+
+.blue-page {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+}
+.blue-page h4 {
+    font-family: "Raleway";
+}
+.blue-page p{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open sans";
+    margin: 20px 0;
+}
+.blue-page input {
+    width: 90%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 4px;
+}
+.blue-page button {
+    width: 90%;
+    height: 30px;
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    margin: 4px 0 30px 0;
+}
+.blue-page button:hover {
+    background-color: hsl(224, 89%, 66%);
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.white-logo {
+    width: 170px;
+}
+.contact {
+    margin: 30px 0;
+}
+.ph, .em {
+ margin: 8px;
+ display: block;
+}
+.phone-img, .email-img {
+    margin-right: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+li {
+    margin: 10px;
+}
+li:hover {
+    color: hsl(224, 89%, 66%);
+    cursor: pointer;
+}
+.foot-icons {
+    display: flex;
+    justify-content: center;
+    filter: invert(100%);
+    margin: 15px
+}
+.facebook, .twitter, .instagram {
+    margin: 7px;
+}
+.foot-icons svg:hover {
+    filter: invert(67%) sepia(90%) saturate(5655%) hue-rotate(745deg) brightness(90%) contrast(150%);
+    cursor: pointer;
+}
+@media screen and (min-width:1024px) {
+   body {
+    /* width: 1440px; */
+    width: 100%;
+   }
+
+   header {
+    margin: 30px 70px;
+    padding-top: 40px;
+   }
+   header img {
+    height: 60px;
+   }
+   .page1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: start;
+    margin: 50px 60px;
+    }
+    .pick {
+        padding: 0 15px;
+    }
+    .image-1 {
+        width: 48%;
+    }
+    .textbox1 {
+        padding: 100px 0 0 20px;
+    }
+    h1, h2, h3, nav {
+        text-align: left;
+    }
+    h1, .inner2 h2 {
+        font-size: 45px;
+    }
+    .page1 p, .innerfirst {
+        font-size: 21px;
+        text-align: left;
+    }
+    .page1 input {
+        width: 55%;
+        height: 60px;
+    }
+    .page1 button {
+        width: 30%;
+        margin-left: 10px;
+        height: 60px;
+    }
+
+    .page2 {
+        margin-top: 160px;
+    }
+    .inner1 {
+        background-image: url("./images/bg-curve-desktop.svg");
+        height: 100px;
+    }
+
+    .inner2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: start;
+        padding: 50px;
+    }
+    .textbox2 {
+        padding: 40px;
+    }
+
+    .image-2 {
+        width: 38%;
+    }
+    .innerfirst {
+        margin: 25px 0;
+        width: 95%;
+    }
+    .link1 {
+        width: 220px;
+        align-self: left;
+        margin: 30px 0;
+    }
+    .link1 a {
+        font-size: 20px;
+    }
+    .link1 img {
+        width: 30px;
+        padding-left: 6px;
+    }
+    .testimonial {
+        margin: 40px 0;
+        width: 62%;
+        height: 270px;
+        border-radius: 6px;
+        padding: 30px;
+    }
+    .test-para {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .test-im {
+        width: 20px;
+    }
+    .sub-test {
+        margin: 10px 0;
+    }
+    .sub-im {
+        width: 40px;
+        height: 40px;
+    }
+    .sub-test p {
+        font-size: 10px;
+    }
+    .sub-test h6 {
+        font-size: 13px;
+    }
+    .blue-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 90px;
+    }
+    .info {
+        width: 550px;
+    }
+    .details {
+        width: 50%;
+        padding: 40px 150px;
+    }
+    .info h4, .info p {
+        text-align: start;
+    }
+    .blue-page p {
+        font-size: 18px;
+    }
+    .blue-page h4 {
+        font-size: 35px;
+    }
+    .blue-page input {
+        width: 480px;
+        height: 60px;
+        padding: 0 15px;
+        border-radius: 5px;
+        margin-bottom: 13px;
+    }
+    .blue-page button {
+        width: 250px;
+        height: 55px;
+        border-radius: 5px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 17px;
+        padding: 100px 70px 40px 70px;
+    }
+    .white-logo {
+        width: 200px;
+    }
+    .phone-img, .email-img {
+        width: 20px;
+        margin-right: 20px;
+    }
+    ul, .foot-icons {
+        margin-top: 90px;
+    }
+    .foot-icons {
+        margin-right: 100px;
+    }
+    .facebook, .twitter, .instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+}
